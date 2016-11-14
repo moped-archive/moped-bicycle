@@ -1,0 +1,40 @@
+{
+  "name": "moped-bicycle",
+  "version": "0.0.7",
+  "main": "lib/index.js",
+  "description": "Easy bicycle setup for moped",
+  "keywords": [],
+  "files": [
+    "lib/",
+    "client.js",
+    "server.js"
+  ],
+  "dependencies": {
+    "babel-runtime": "^6.3.19",
+    "bicycle": "^0.4.1",
+    "react": "^15.3.2",
+    "react-bicycle": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-preset-forbeslindesay": "*",
+    "eslint": "*",
+    "eslint-config-forbeslindesay": "*",
+    "testit": "*"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir lib",
+    "lint": "eslint src",
+    "test": "babel-node test/index.js && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mopedjs/moped-bicycle.git"
+  },
+  "author": {
+    "name": "Forbes Lindesay",
+    "url": "http://github.com/ForbesLindesay"
+  },
+  "license": "MIT"
+}

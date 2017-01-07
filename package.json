@@ -11,7 +11,7 @@
   ],
   "dependencies": {
     "babel-runtime": "^6.3.19",
-    "bicycle": "^0.4.1",
+    "bicycle": "^0.6.1",
     "react": "^15.3.2",
     "react-bicycle": "^2.2.0"
   },
